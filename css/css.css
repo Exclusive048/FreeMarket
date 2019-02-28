@@ -1,0 +1,52 @@
+.form-signin {
+    max-width: 300px;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    margin-top: 50px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(175, 51, 51, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(24, 231, 42, 0.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin input[type="text"], .form-signin input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+.one {
+    background: #FFF4ED;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .one h1 {
+    font-family: 'Righteous', cursive;
+    position: relative;
+    color: #3CA1D9; 
+    display: inline-block;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    font-size: 3em;
+    padding: 11px 60px;
+    margin: 0; 
+    line-height: 1;
+  }
+  .one h1:before, .one h1:after {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    background: repeating-linear-gradient(180deg, transparent, transparent 2px, #3CA1D9 2px, #3CA1D9 4px);
+  }
+  .one h1:before {left: 0;}
+  .one h1:after {right: 0;}
+  @media (max-width: 420px) {
+    .one h1 {font-size: 2em;}
+  }
